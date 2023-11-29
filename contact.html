@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PT. Travel Indonesia </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <style>
+      /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+  
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #ff0000;
+  padding: 20px;
+}
+
+        </style>
+        <header>
+
+        
+        <div class="header"></div>
+        <div class="header">
+            <a href="#default" class="logo">PT. Travel Indonesia</a>
+            <div class="header-right">
+              <a style="color: antiquewhite;" "active" href="index.html">Beranda</a>
+              <a style="color: antiquewhite;" href="Tentang kami.html">Tentang Kami</a>
+              <a style="color: antiquewhite;" href="Informasi.html">Informasi</a>
+              <a style="color: antiquewhite;" href="contact.html">contact</a>
+              <a style="color: antiquewhite;" href="187669-ID-analisis-tarif-berdasarkan-biaya-operasi.pdf">Panduan Lengkap</a>
+            </div>
+          </header>
+            <article>
+              <div class="container">
+                <form action="action_page.php">
+              
+                  <label for="fname" style="color: #ccc;">Nama depan :</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Nama depan..">
+              
+                  <label for="lname" style="color: #ccc;">Nama Panggilan :</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Nama Panggilan..">
+              
+                  <label for="country" style="color: #ccc;">Jenis Kelamin</label>
+                  <select id="country" name="country">
+                    <option value="australia">Laki-laki</option>
+                    <option value="canada">Perempuan</option>
+                  </select>
+              
+                  <label for="subject" style="color: #ccc;">Pesan anda</label>
+                  <textarea id="subject" name="subject" placeholder="Pesan anda.." style="height:200px"></textarea>
+              
+                  <form>
+                    <input type="submit" value="submit">
+                  </form>
+                  <footer style="text-align: center;">
+                    <h2 style="color: antiquewhite;">Contact</h2>
+                    <p class="text" style="color: antiquewhite;">Bus Travelnya Indonesia.</p>
+                    <a href="https://api.whatsapp.com/send?phone=085748674390" style="color: antiquewhite;">Hubungi Kami melalui WA</a>
+                    <p><a href="mailto:fatchul.romadhon17@gmail.com" style="color: antiquewhite;"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> fatchul.romadhon17@gmail.com</a></p>
+                    <p style="color: antiquewhite;">Jombang,Jawa Timur,Indonesia PT. Travel Indonesia</p>
+                  </footer>
+            </article>
+  </form>
+</div>
+</html>
